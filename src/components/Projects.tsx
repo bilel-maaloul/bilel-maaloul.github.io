@@ -5,23 +5,30 @@ import { ExternalLink, Github } from "lucide-react";
 const Projects = () => {
   const projects = [
     {
-      title: "E-Commerce Platform",
-      description: "Full-stack online store with payment integration, inventory management, and admin dashboard.",
-      tech: ["React", "Node.js", "PostgreSQL", "Stripe"],
+      title: "AI Document Analysis Tool",
+      description: "Full-stack AI-powered tool extracting and analyzing KPIs from charts and tables across PPTX, Excel, and images using GPT-4 Vision.",
+      tech: ["React", "Tailwind CSS", "Flask", "GPT-4 Vision"],
       link: "#",
       github: "#"
     },
     {
-      title: "Task Management App",
-      description: "Collaborative project management tool with real-time updates and team features.",
-      tech: ["Vue.js", "Firebase", "Tailwind CSS"],
+      title: "3D Medical Chatbot",
+      description: "Unity-based 3D human body model with local chatbot using LLaMA 3 and advanced RAG techniques including Graph RAG.",
+      tech: ["Unity", "LLaMA 3", "RAG", "Python"],
       link: "#",
       github: "#"
     },
     {
-      title: "AI Content Generator",
-      description: "Content creation tool powered by AI for generating articles, social media posts, and more.",
-      tech: ["Next.js", "OpenAI API", "TypeScript"],
+      title: "AWS Cloud Chatbot",
+      description: "Robust chatbot leveraging AWS services for backend with sleek native React application for engaging frontend experience.",
+      tech: ["React Native", "AWS", "Cloud Services"],
+      link: "#",
+      github: "#"
+    },
+    {
+      title: "Data Validation Tool",
+      description: "User-friendly data validation application simplifying data validation across multiple detailed pages.",
+      tech: ["Python", "Streamlit", "Pandas"],
       link: "#",
       github: "#"
     }
@@ -34,7 +41,7 @@ const Projects = () => {
           Featured Projects
         </h2>
         
-        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+        <div className="grid md:grid-cols-2 gap-8">
           {projects.map((project, idx) => (
             <Card 
               key={idx}

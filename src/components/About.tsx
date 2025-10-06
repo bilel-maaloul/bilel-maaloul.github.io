@@ -12,36 +12,39 @@ const About = () => {
         <div className="grid md:grid-cols-3 gap-8 mb-16">
           <Card className="p-8 bg-card border-border hover:border-primary/50 transition-all hover:shadow-[var(--glow-primary)]">
             <Code2 className="w-12 h-12 text-primary mb-4" />
-            <h3 className="text-xl font-bold mb-3">Clean Code</h3>
+            <h3 className="text-xl font-bold mb-3">AI & Machine Learning</h3>
             <p className="text-muted-foreground">
-              Writing maintainable, scalable code with best practices and modern patterns.
+              Building intelligent systems with deep learning, NLP, and transformers for real-world applications.
             </p>
           </Card>
           
           <Card className="p-8 bg-card border-border hover:border-primary/50 transition-all hover:shadow-[var(--glow-primary)]">
             <Palette className="w-12 h-12 text-primary mb-4" />
-            <h3 className="text-xl font-bold mb-3">Design Focus</h3>
+            <h3 className="text-xl font-bold mb-3">Full-Stack Development</h3>
             <p className="text-muted-foreground">
-              Creating intuitive, beautiful interfaces that users love to interact with.
+              Creating end-to-end solutions with React, Python, and cloud technologies.
             </p>
           </Card>
           
           <Card className="p-8 bg-card border-border hover:border-primary/50 transition-all hover:shadow-[var(--glow-primary)]">
             <Rocket className="w-12 h-12 text-primary mb-4" />
-            <h3 className="text-xl font-bold mb-3">Fast Delivery</h3>
+            <h3 className="text-xl font-bold mb-3">Hackathon Champion</h3>
             <p className="text-muted-foreground">
-              Efficiently transforming ideas into production-ready applications.
+              Multiple award winner in AI hackathons, demonstrating creativity and technical excellence.
             </p>
           </Card>
         </div>
         
         <div className="prose prose-invert mx-auto text-center max-w-3xl">
+          <p className="text-lg text-muted-foreground leading-relaxed mb-6">
+            Currently pursuing a Computer Engineering degree at Institut Supérieur des Arts Multimédia de la Manouba,
+            with a background in Business Intelligence from IHEC CARTHAGE. Active participant in hackathons with
+            multiple top placements, including second place finishes at AI hackathons.
+          </p>
           <p className="text-lg text-muted-foreground leading-relaxed">
-            I'm a passionate developer with experience in building full-stack web applications.
-            My journey in tech has led me to work with various modern technologies and frameworks,
-            always striving to create solutions that are both powerful and elegant. When I'm not coding,
-            you'll find me exploring new technologies, contributing to open source, or sharing knowledge
-            with the developer community.
+            I've worked on cutting-edge AI projects including GPT-4 Vision integrations, RAG systems with LLaMA 3,
+            and cloud-based chatbots. As a former Data Science Instructor at GoMyCode, I'm passionate about sharing
+            knowledge and helping others grow in their tech journey.
           </p>
         </div>
       </div>

@@ -18,14 +18,14 @@ const Hero = () => {
       
       <div className="container mx-auto px-6 z-10 text-center">
         <h1 className="text-5xl md:text-7xl font-bold mb-6 bg-gradient-to-r from-primary to-secondary bg-clip-text text-transparent animate-in fade-in slide-in-from-bottom-4 duration-1000">
-          Your Name
+          Bilel Maaloul
         </h1>
         <p className="text-xl md:text-2xl text-muted-foreground mb-8 animate-in fade-in slide-in-from-bottom-4 duration-1000 delay-200">
-          Full Stack Developer | Creative Problem Solver
+          AI Software Engineer | Data Scientist
         </p>
         <p className="text-lg text-muted-foreground max-w-2xl mx-auto mb-12 animate-in fade-in slide-in-from-bottom-4 duration-1000 delay-300">
-          Building beautiful, functional web experiences with modern technologies.
-          Passionate about clean code and user-centered design.
+          Passionate about artificial intelligence, problem solving, and continuous learning. 
+          Strong foundation in machine learning, data science, and software development.
         </p>
         <div className="flex gap-4 justify-center animate-in fade-in slide-in-from-bottom-4 duration-1000 delay-500">
           <Button 
