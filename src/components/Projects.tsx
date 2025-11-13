@@ -8,7 +8,6 @@ const Projects = () => {
       title: "Data Validation Tool",
       description: "User-friendly data validation application simplifying data validation across multiple detailed pages.",
       tech: ["Python", "Streamlit", "Pandas"],
-      
       github: "https://github.com/bilel-maaloul/data_checker_poject"
     },
      {
@@ -17,7 +16,6 @@ const Projects = () => {
       tech: ["React Native", "AWS", "Cloud Services"],
       github: "https://github.com/bilel-maaloul/Mobile_App_Chatbot"
     },
-
   ];
 
   return (
@@ -50,13 +48,12 @@ const Projects = () => {
                     </span>
                   ))}
                 </div>
-             
-                    <a href={project.github} target="_blank" rel="noopener noreferrer">
-                      <Github className="w-4 h-4 mr-2" />
-                      Code
-                    </a>
-                  </Button>
-                </div>
+                <Button asChild variant="outline" size="sm" className="group/code">
+                  <a href={project.github} target="_blank" rel="noopener noreferrer" className="flex items-center gap-1">
+                    <Github className="w-4 h-4 mr-2" />
+                    Code
+                  </a>
+                </Button>
               </CardContent>
             </Card>
           ))}
