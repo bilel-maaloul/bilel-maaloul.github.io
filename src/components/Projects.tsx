@@ -50,23 +50,7 @@ const Projects = () => {
                     </span>
                   ))}
                 </div>
-                <div className="flex gap-3">
-                  <Button 
-                    size="sm"
-                    className="flex-1 bg-primary text-primary-foreground hover:bg-primary/90"
-                    asChild
-                  >
-                    <a href={project.link} target="_blank" rel="noopener noreferrer">
-                      <ExternalLink className="w-4 h-4 mr-2" />
-                      View
-                    </a>
-                  </Button>
-                  <Button 
-                    size="sm"
-                    variant="outline"
-                    className="flex-1 border-primary/50 hover:bg-primary/10"
-                    asChild
-                  >
+             
                     <a href={project.github} target="_blank" rel="noopener noreferrer">
                       <Github className="w-4 h-4 mr-2" />
                       Code
