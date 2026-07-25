@@ -89,7 +89,7 @@ const Navigation = () => {
                   className={
                     isActive
                       ? "bg-primary text-primary-foreground"
-                      : "text-foreground hover:text-primary transition-colors"
+                      : "text-foreground/80 hover:text-accent-foreground transition-colors"
                   }
                   onClick={() => scrollToSection(item.href)}
                 >
@@ -124,7 +124,7 @@ const Navigation = () => {
                   className={
                     isActive
                       ? "bg-primary text-primary-foreground w-full justify-start"
-                      : "text-foreground hover:text-primary transition-colors w-full justify-start"
+                      : "text-foreground/80 hover:text-accent-foreground transition-colors w-full justify-start"
                   }
                   onClick={() => scrollToSection(item.href)}
                 >
