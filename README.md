@@ -1,4 +1,4 @@
-# Welcome to your Lovable project
+# Bilel Maaloul | Portfolio
 
 ## Project info
 
